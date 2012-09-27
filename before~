@@ -1,0 +1,28 @@
+           CPU0       CPU1       CPU2       CPU3       
+  0:         52          0          0          0   IO-APIC-edge      timer
+  1:         81          0       2938          0   IO-APIC-edge      i8042
+  8:          1          0          0          0   IO-APIC-edge      rtc0
+  9:        984          0          0        368   IO-APIC-fasteoi   acpi
+ 12:       2564      15899          0          0   IO-APIC-edge      i8042
+ 14:      10553          0          0          0   IO-APIC-edge      ata_piix
+ 15:       7586          0          0          0   IO-APIC-edge      ata_piix
+ 16:        256          0          0          0   IO-APIC-fasteoi   ehci_hcd:usb1
+ 18:          0          0          0          0   IO-APIC-fasteoi   xhci_hcd:usb3
+ 19:         28          0          0          0   IO-APIC-fasteoi   ata_piix, ohci1394
+ 22:        508         66         17         14   IO-APIC-fasteoi   HDA Intel
+ 23:         30          0          0          0   IO-APIC-fasteoi   ehci_hcd:usb2
+ 30:      20278          0          0          0   PCI-MSI-edge      iwlwifi
+NMI:          0          0          0          0   Non-maskable interrupts
+LOC:      67422      62235      44177      25284   Local timer interrupts
+SPU:          0          0          0          0   Spurious interrupts
+PMI:          0          0          0          0   Performance monitoring interrupts
+PND:          0          0          0          0   Performance pending work
+RES:     338987     343255      22324      15819   Rescheduling interrupts
+CAL:        103        105        124         94   Function call interrupts
+TLB:       1726       1570       1194       1208   TLB shootdowns
+TRM:          0          0          0          0   Thermal event interrupts
+THR:          0          0          0          0   Threshold APIC interrupts
+MCE:          0          0          0          0   Machine check exceptions
+MCP:          3          3          3          3   Machine check polls
+ERR:          0
+MIS:          0
